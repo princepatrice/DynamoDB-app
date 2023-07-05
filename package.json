@@ -1,0 +1,22 @@
+{
+  "name": "dynamodb-app",
+  "version": "1.0.0",
+  "description": "Dynamo Db App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": " node app.js "
+  },
+  "keywords": [
+    "NODE",
+    "EXPRESS",
+    "DYNAMO"
+  ],
+  "author": "Koya Patrice Dzogbema",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1411.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  }
+}
